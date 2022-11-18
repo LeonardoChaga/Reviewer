@@ -1,0 +1,10 @@
+.reviewItem {
+    background-color: white;
+    border-radius: 20px;
+
+    width: 100vh;
+    height: auto;
+
+    padding: 25px;
+    margin: 5vh auto;
+}

@@ -1,0 +1,71 @@
+.tendenciesRow {
+    margin-bottom: 30px;
+}
+
+
+
+.tendenciesRow h2 {
+    margin: 80px 0px 0px 30px;
+    color: white;
+    
+
+}
+
+.tendenciesRow--listarea {
+    overflow-x: hidden ;
+    padding-left: 30px;
+}
+
+.tendenciesRow--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+.tendenciesRow--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.tendenciesRow--item img:hover {
+    transform: scale(1);
+}
+
+.tendenciesRow--left,
+.tendenciesRow--right{
+    position: absolute;
+    width: 40px;
+    height:225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor:pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+    margin-top: 120px;
+}
+
+.tendenciesRow--left {
+    left: 0;
+}
+
+.tendenciesRow--right {
+    right: 0;
+}
+
+.tendenciesRow:hover .movieRow--left,
+.tendenciesRow:hover .movieRow--right {
+    opacity: 1;
+
+}
+
+.tendenciesRow--list {
+    transition: all ease 0.5s;
+    margin-left: 20px;
+}
